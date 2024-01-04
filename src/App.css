@@ -1,0 +1,20 @@
+body {
+    background-color: #111827;
+}
+
+
+/* PopularGames.css */
+
+.game-card {
+    transition: transform 0.3s ease;
+    transform-style: preserve-3d;
+  }
+  
+  .game-card:hover {
+    transform: rotateY(20deg);
+  }
+  
+  .gradient {
+    background: linear-gradient(to bottom, transparent, black);
+  }
+  
